@@ -21,7 +21,7 @@ This script traverses a specified directory tree, identifies the top 10 file typ
 ```powershell
 .\Get-FileTypeReport.ps1 -InputDirectory "C:\Users\MyUser\Documents" -OutputDirectory "C:\Reports"
 
-**Linux Example:**
+**Windows Example:**
 
 pwsh ./Get-FileTypeReport.ps1 -InputDirectory "/home/user/documents" -OutputDirectory "/tmp/reports"
 
